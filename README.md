@@ -27,7 +27,7 @@ This project is a **bank loan management system** that allows loan providers to 
 ### **Backend**
 - **Django**: Python web framework for building the backend API.
 - **Django REST Framework (DRF)**: For building RESTful APIs.
-- **SQLite**: Default database for development (can be replaced with PostgreSQL or MySQL for production).
+- **PostgresSQL**: Default database for development.
 
 ### **Frontend**
 - **React**: JavaScript library for building the user interface.
@@ -45,7 +45,7 @@ This project is a **bank loan management system** that allows loan providers to 
 
 ### **Backend**
 backend/
-├── users/ # User management app
+├── users/ # User management app \n
 │ ├── models.py # User model
 │ ├── serializers.py # Serializers for user data
 │ ├── views.py # API views for users
