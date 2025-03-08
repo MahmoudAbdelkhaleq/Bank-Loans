@@ -41,40 +41,6 @@ This project is a **bank loan management system** that allows loan providers to 
 
 ---
 
-## Project Structure
-
-### **Backend**
-backend/
-├── users/                  # User management app
-│   ├── models.py           # User model
-│   ├── serializers.py      # Serializers for user data
-│   ├── views.py            # API views for users
-│   ├── urls.py             # URL routing for users
-│   └── permissions.py      # Custom permissions
-├── loans/                  # Loan management app
-│   ├── models.py           # Loan and LoanFund models
-│   ├── serializers.py      # Serializers for loans
-│   ├── views.py            # API views for loans
-│   └── urls.py             # URL routing for loans
-├── manage.py               # Django management script
-└── settings.py             # Django project settings
-
-### **Frontend**
-frontend/
-├── public/                 # Static assets
-├── src/
-│   ├── components/         # Reusable components
-│   ├── pages/              # Page components
-│   ├── services/           # API services
-│   ├── App.js              # Main app component
-│   ├── index.js            # Entry point
-│   ├── index.css           # Global styles
-│   └── setupProxy.js       # Proxy setup for API calls
-├── Dockerfile              # Dockerfile for the frontend
-└── package.json            # Frontend dependencies
-
----
-
 ## Setup Instructions
 
 ### **Prerequisites**
